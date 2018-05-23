@@ -1,0 +1,678 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+    font-family: "微软雅黑";
+}
+
+.top{
+    width: 100%;
+    height: 120px;
+    /*background-color: #e53935;*/
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.top .DaoHang{
+    width: 536px;
+    height: 68px;
+    /*background-color: #007dff;*/
+    margin-left: 740px;
+    float: left;
+}
+.top .DaoHang .sy{
+    width: 80px;
+    height:51px;
+    /*background-color: #fff100;*/
+    border-bottom:2px solid  #c40000 ;
+    box-sizing: border-box;
+    float: left;
+}
+.top .DaoHang .sy a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 51px;
+    color: #c40000;
+    font-family: 微软雅黑;
+    font-size: 16px;
+}
+.top .DaoHang .yhhd{
+    width: 84px;
+    height: 51px;
+    /*background-color: #fff100;*/
+    float: left;
+    margin-left: 20px;
+}
+.top .DaoHang .yhhd a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 51px;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    color: #666666;
+}
+.top .DaoHang .jmcd{
+    width: 84px;
+    height: 51px;
+    /*background-color: #fff100;*/
+    float: left;
+    margin-left: 20px;
+}
+.top .DaoHang .jmcd a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 51px;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    color: #666666;
+}
+.top .DaoHang .jmwm{
+    width: 84px;
+    height: 51px;
+    /*background-color: #fff100;*/
+    float: left;
+    margin-left: 20px;
+}
+.top .DaoHang .jmwm a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 51px;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    color: #666666;
+}
+.top .DaoHang .gywm{
+    width: 84px;
+    height: 51px;
+    /*background-color: #fff100;*/
+    float: left;
+    margin-left: 20px;
+}
+.top .DaoHang .gywm a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 51px;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    color: #666666;
+}
+.lunbo{
+    width: 1518px;
+    height: 700px;
+    background-color: #fff100;
+    margin-top: 20px;
+}
+.lunbo .Tu{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.lunbo .Tu .diyi{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.lunbo .Tu .diyi .qq{
+    display: block;
+    width: 1518px;
+    height: 700px;
+}
+.lunbo .Tu .diyi .ww{
+    display: block;
+    width: 530px;
+    height: 329px;
+    position: absolute;
+    top:165px;
+    left: 800px;
+}
+.lunbo .Tu .er{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.lunbo .Tu .er .ee{
+    display: block;
+    width: 1518px;
+    height: 700px;
+}
+.lunbo .Tu .er .rr{
+    display: block;
+    width: 318px;
+    height: 502px;
+    position: absolute;
+    left: 950px;
+    top:80px;
+}
+.why{
+    width: 100%;
+    height: 1100px;
+    background-color: #fff;
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+.why .b1{
+    display:block;
+    width: 100%;
+    height: 40px;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #000;
+    margin-top: 10px;
+}
+.why .b2{
+    display:block;
+    width: 100%;
+    height: 40px;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: rgb(196, 0, 0)
+}
+.why span{
+    display:block;
+    width: 100%;
+    height: 24px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: rgb(194, 194, 194);
+}
+.why .zz{
+    width: 100%;
+    height: 320px;
+    background-color: #fff;
+    margin-top: 40px;
+    padding: 0 200px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.why .zz .t1{
+    width: 218px;
+    height: 218px;
+    background-color: #ffffff;
+}
+.why .zz .t2{
+    width: 320px;
+    height: 320px;
+    /*background-color: #5f5750;*/
+    background-image: url("../img/6.png");
+}
+.why .zz .t2 span{
+    font-size: 36px;
+    font-family: 微软雅黑;
+    color: rgb(51, 51, 51);
+    height: 50px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+.why .zz .t2 p{
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    width: 500px;
+    margin-top: -145px;
+    margin-left: -50px;
+    font-family: "微软雅黑"
+}
+.why .zz .t2 span:nth-child(1){
+    margin-top: 46px;
+}
+.why .zz .t3{
+    width: 218px;
+    height: 218px;
+    background-color: #ffffff;
+}
+.why .xx{
+    width: 100%;
+    height: 270px;
+    background-color: #fff;
+    padding: 0 160px;
+    box-sizing: border-box;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.why .xx .t1{
+    width: 390px;
+    height: 270px;
+    background-color: #fff100;
+}
+.why .xx .t1 .spa{
+    width: 30px;
+    height: 120px;
+    margin-top: -206px;
+    margin-left: 306px;
+}
+.why .xx .t1 .spa span{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-family: "微软雅黑";
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+
+}
+.why .xx .t2{
+    width: 390px;
+    height: 270px;
+    background-color: #fff100;
+}
+.why .xx .t2 .spa{
+    width: 30px;
+    height: 120px;
+    margin-top: -206px;
+    margin-left: 306px;
+}
+.why .xx .t2 .spa span{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-family: "微软雅黑";
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+
+}
+.why .xx .t3{
+    width: 390px;
+    height: 270px;
+    background-color: #fff100;
+}
+.why .xx .t3 .spa{
+    width: 30px;
+    height: 120px;
+    margin-top: -206px;
+    margin-left: 306px;
+}
+.why .xx .t3 .spa span{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-family: "微软雅黑";
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+.why .cc{
+    width: 100%;
+    height: 210px;
+    background-color: #fff;
+    margin-top:75px;
+}
+.why .cc .b3{
+    display:block;
+    width: 100%;
+    height: 40px;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #000;
+}
+.why .cc .b4{
+    display:block;
+    width: 100%;
+    height: 40px;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: rgb(196, 0, 0)
+}
+.tuijian{
+    width: 100%;
+    height: 500px;
+    background-color: #e53935;
+    background-image: url("../img/12.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:-190px ;
+    position: relative;
+    top:0;
+    left: 0;
+    box-sizing: border-box;
+}
+.tuijian .tuijiantu{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.tuijian .tuijiantu2{
+    position: absolute;
+    top:60px;
+    left: 800px;
+}
+.riwen{
+    width: 100%;
+    height: 990px;
+    /*background-color: #fff100;*/
+    padding: 100px 160px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.riwen .liu{
+    width: 398px;
+    height: 398px;
+    background-color: #ffffff;
+}
+.riwen .liu1{
+    position: relative;
+}
+.riwen .liu1 span{
+    position: absolute;
+    top:160px;
+    left: 150px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+.riwen .liu3 span{
+    display: block;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.riwen .liu3 span:nth-child(1){
+    margin-top: 100px;
+}
+.riwen .liu3 img{
+    display: block;
+    margin: 50px auto;
+}
+.riwen .liu5 b{
+    display: block;
+    width: 398px;
+    height: 27.2px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+    color: #000000;
+}
+.riwen .liu5 span{
+    display: block;
+    width: 100%;
+    height: 25.6px;
+    line-height: 25.6px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    text-align: center;
+}
+.riwen .liu5 p{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.foot{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    background-image: url("../img/17.jpg");
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+    background-position:-170px;
+}
+.foot .zi{
+    width: 528px;
+    height: 90px;
+    margin: 0 auto;
+    /*background: #e53935;*/
+    margin-top:100px ;
+}
+.foot .zi b{
+    display: block;
+    width: 100%;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+}
+.foot .zi span {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 3px;
+}
+.xuanze{
+    width: 100%;
+    height: 550px;
+    background: #fff;
+    padding: 120px 160px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.xuanze .z1{
+    width: 339px;
+    height: 291px;
+    /*background: #e53935;*/
+    border: 1px solid #999999;
+    box-sizing: border-box;
+}
+.xuanze .z1 img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 26px;
+}
+.xuanze .z1 b{
+    display: block;
+    width: 100%;
+    height: 24px;
+    font-size: 18px;
+    text-align: center;
+}
+.xuanze .z1 .s1{
+    display: block;
+    width: 196px;
+    height: 22.4px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    margin-top: 10px;
+}
+.xuanze .z1 .s2{
+    display: block;
+
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+.yishu{
+    width: 100%;
+    height: 545px;
+    background: #e53935;
+    background-image: url("../img/21.jpg");
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    background-position:-190px ;
+}
+.yishu .zzz{
+    width: 100%;
+    height: 120px;
+    /*background: #e53935;*/
+    padding-top: 200px;
+
+
+}
+.yishu .zzz .z3{
+    display: block;
+    width: 100%;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+}
+.yishu .zzz .z4{
+    display: block;
+    width: 100%;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+}
+.yishu .zzz .left{
+    display: block;
+    margin-top: -140px;
+    margin-left: 500px;
+}
+.yishu .zzz .right{
+    display: block;
+    margin-top: 90px;
+    margin-left: 1000px;
+}
+.di{
+    width: 100%;
+    height: 750px;
+    background: #fff;
+    padding: 120px 160px;
+    box-sizing: border-box;
+    border-bottom: 3px solid rgb(196, 0, 0);
+}
+.di b{
+    display: block;
+    width: 100%;
+    height: 24px;
+    font-size: 30px;
+    text-align: center;
+}
+.di .d1{
+    display: block;
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+    color: #666;
+    margin-top: 16px;
+}
+.di .d2{
+    display: block;
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(196, 0, 0);
+}
+.di p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+}
+.di .d3{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: #000000;
+}
+.di .lo{
+    width: 100%;
+    height: 150px;
+    background: #fff;
+    margin-top: 30px;
+    padding: 0 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+
+}
+.di .lo .l1{
+    width: 200px;
+    height: 150px;
+    background: #fff;
+}
+.di .lo .l1 img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 14px;
+}
+.di .lo .l1 .d4{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    margin-top: 14px;
+}
+.di .lo .l1 .d5 {
+    width:100%;
+    display: block;
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    float: left;
+    margin-top: 6px;
+    /*margin-left: 20px;*/
+    text-align: center;
+}
+.di .dt{
+    display: block;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.di .dt2{
+    display: block;
+    margin: 0 auto;
+    margin-top: -156px;
+}
+.bottom{
+    width: 100%;
+    height: 344px;
+    background: #000000;
+    padding: 50px 0;
+    box-sizing: border-box;
+}
+.bottom img{
+    display: block;
+    margin: 0 auto;
+}
+.bottom span{
+    display: block;
+    margin-top: -58px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+}
+.bottom .lala{
+    width: 500px;
+    /*height: px;*/
+    /*background: #007dff;*/
+    margin-top: 150px;
+    display: flex;
+    padding: 0 100px;
+    box-sizing: border-box;
+
+
+
+}
+.bottom .lala span{
+    /*display: block;*/
+    color: #999999;
+    font-size: 12px;
+    margin-left: 200px;
+
+}
+
